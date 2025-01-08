@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CSS-Hackathon</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+				<div class="container-fluid">
+					<a class="navbar-brand logo" href="#">Lonely Planet</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active bold" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item bold">
+								<a class="nav-link" href="#">Destinations</a>
+							</li>
+							<li class="nav-item bold">
+								<a class="nav-link" href="#">Planning</a>
+							</li>
+							<li class="nav-item bold">
+								<a class="nav-link" href="#">Inspiration</a>
+							</li>
+							<li class="nav-item bold">
+								<a class="nav-link" href="#">Shop</a>
+							</li>
+						</ul>
 
+						<form class="d-flex" role="search">
+							<!-- <i class="fas fa-search"></i> -->
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+							<button class="btn btn-light bold" type="submit">Search</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div class="cards">
+			<p>
+				Discover Story-Worthy <br />
+				&nbsp;&nbsp; Travel Moments
+			</p>
+			<img src="Images/JZMASr.avif" alt="" />
+			<img src="Images/pjivzH.avif" alt="" />
+			<img src="Images/kiCrFt.avif" alt="" />
+		</div>
+
+		<div class="custom-margin">
+			<h6 class="mt-4 heading">PLAN YOUR TRIP</h6>
+			<h1 class="heading">Where To Next?</h1>
+		</div>
+
+		<div class="container">
+			<div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
+				<div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-lg-3 g-1">
+				  <div class="col">
+					<div class="card h-auto shadow-sm"> <img src="Images/Cards - 1.jpg" class="card-img-top" alt="...">
+						<p class="custom-paragraph">Costa Rica</p>
+					</div>
+				  </div>
+		
+				  <div class="col">
+					<div class="card h-auto shadow-sm"> <img src="Images/Cards - 2.jpg" class="card-img-top" alt="...">
+						<p class="custom-paragraph">Patagonia</p>
+					</div>
+				  </div>
+		
+				  <div class="col">
+					<div class="card h-auto shadow-sm"> <img src="Images/Cards - 3.jpg" class="card-img-top" alt="...">
+						<p class="custom-paragraph">Tanzania</p>
+					</div>
+				  </div>
+			  </div>
+		</div>
+	</body>
+</html>

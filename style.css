@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.cards {
+	display: flex;
+}
+.cards img {
+	width: 569px;
+}
+.cards p {
+	z-index: 1;
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	font-size: 80px;
+	padding-top: 280px;
+	padding-left: 400px;
+}
+
+.custom-margin {
+	margin-left: 20px;
+}
+
+.heading {
+	font-weight: bolder;
+}
+
+.custom-paragraph {
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 10px;
+}
