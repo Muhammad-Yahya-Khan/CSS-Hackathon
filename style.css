@@ -12,8 +12,9 @@
 	display: flex;
 }
 .cards img {
-	width: 569px;
+	width: 563px;
 }
+
 .cards p {
 	z-index: 1;
 	position: absolute;
